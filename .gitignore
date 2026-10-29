@@ -1,0 +1,27 @@
+# Environments
+.venv/
+env/
+venv/
+
+# Data (Keep datasets out of version control)
+data/
+*.csv
+*.zip
+*.tar.gz
+
+# Jupyter Notebooks & VS Code
+.ipynb_checkpoints/
+.vscode/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Credentials & Secret Keys
+.env
